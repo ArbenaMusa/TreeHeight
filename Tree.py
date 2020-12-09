@@ -3,12 +3,10 @@ from Node import Node
 
 # Binary tree class
 class Tree:
-    def __init__(self, number_of_nodes):
-        self.tree_root = Node(3)
-        array = [5, 3, 4, 2, 1]
-        for i in array:
-            print("for" + str(i))
-            self.insert(self.tree_root, i)
+    def __init__(self, root_data,  data_array):
+        self.tree_root = Node(root_data)
+        for data in data_array:
+            self.insert(self.tree_root, data)
 
     def get_root(self):
         return self.tree_root
