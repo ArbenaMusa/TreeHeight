@@ -17,12 +17,9 @@ class Tree:
             return Node(data)
         else:
             if root.data == data:
-                print("root")
                 return root
             elif root.data < data:
-                print("right")
                 root.right = self.insert(root.right, data)
             else:
-                print("left")
                 root.left = self.insert(root.left, data)
         return root
