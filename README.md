@@ -1,13 +1,13 @@
 # TreeHeight
 Assignment from the course "Advanced Algorithms" - Finding the height of a tree
 
-##Binary tree
+## Binary tree
 
 A binary tree is a data structure built of nodes in which each node holds the data along with the reference to the child pointers. Every node of a binary tree has at most two children, which are referred as left child and right child. The root is the topmost node of the binary tree.
 
 ![Demo](READMEresources/binary_tree.gif)
 
-##Binary search tree
+## Binary search tree
 
 A binary search tree (BST) is an ordered or sorted binary tree which stores data such as numbers in an organized way. 
 Binary search tree properties:
